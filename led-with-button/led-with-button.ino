@@ -14,6 +14,7 @@ void setup() {
   state = HIGH;
   last = HIGH;
   stateLed = HIGH;
+  digitalWrite(PIN_LED, HIGH);
 }
 
 void loop() {
