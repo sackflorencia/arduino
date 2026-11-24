@@ -2,7 +2,7 @@
 #define PIN_G 10
 #define PIN_R 11
 
-void setColor(int r, int g, int b) {
+void setColor(char r, char g, char b) {
   analogWrite(PIN_R, r);
   analogWrite(PIN_G, g);
   analogWrite(PIN_B,  b);
